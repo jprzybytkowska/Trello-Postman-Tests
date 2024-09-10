@@ -1,0 +1,459 @@
+{
+	"id": "7d00f415-1345-4e90-ae26-16257da0968b",
+	"name": "Trello tests",
+	"timestamp": "2024-08-26T18:49:24.364Z",
+	"collection_id": "21648690-ec17fa79-3ed2-40f5-841d-ad3e7529273d",
+	"folder_id": 0,
+	"environment_id": "21648690-a454d9db-1728-4a0e-aa0f-f50b243a112d",
+	"totalPass": 34,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-26T18:49:17.647Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ed801a74-b191-447b-90bc-605b74958518",
+			"name": "Create board",
+			"url": "https://api.trello.com/1/boards/?name=board667&key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 575,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Board created successfully": true,
+				"Correct board name": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board created successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct board name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				575
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Board created successfully": true,
+					"Correct board name": true
+				}
+			]
+		},
+		{
+			"id": "0fc4bec6-c747-4a61-8c3d-d7ce1f7c5a51",
+			"name": "Create list",
+			"url": "https://api.trello.com/1/lists?name=to_do&idBoard=66ccce2ed9d60f4d4328a3aa&key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 256,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				256
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "bf82b6bd-eea9-4447-9dff-052aa8c7955d",
+			"name": "Create card",
+			"url": "https://api.trello.com/1/cards?idList=66ccce2fb9793bc255de3518&key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 519,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				519
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "576c9cfe-d982-4d2c-a0b0-1601a72087a5",
+			"name": "Update board",
+			"url": "https://api.trello.com/1/boards/66ccce2ed9d60f4d4328a3aa?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 448,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Board created successfully": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board created successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				448
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Board created successfully": true
+				}
+			]
+		},
+		{
+			"id": "d1e53212-1531-46a7-a10c-fdfd0c6af734",
+			"name": "Update list",
+			"url": "https://api.trello.com/1/lists/66ccce2fb9793bc255de3518?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 347,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				347
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "f74db69f-e438-4fd4-9d39-9da69da98a80",
+			"name": "Update card",
+			"url": "https://api.trello.com/1/cards/66ccce2f1922f69647d96c07?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 352,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				352
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "04d79e1c-0336-467e-ae82-3cfa0926d90b",
+			"name": "Get board",
+			"url": "https://api.trello.com/1/boards/66ccce2ed9d60f4d4328a3aa?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 270,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Board created successfully": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board created successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Board created successfully": true
+				}
+			]
+		},
+		{
+			"id": "78b9948b-2812-4f29-8109-9d5d39e03a71",
+			"name": "Get list",
+			"url": "https://api.trello.com/1/lists/66ccce2fb9793bc255de3518?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 251,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Correct list name": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct list name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				251
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Correct list name": true
+				}
+			]
+		},
+		{
+			"id": "403fdec7-ef20-434a-ab2e-fc728eb1d29e",
+			"name": "Get card",
+			"url": "https://api.trello.com/1/cards/66ccce2f1922f69647d96c07?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "9c4ad9fe-a9a2-4c74-b43b-82e1215b919c",
+			"name": "Delete card",
+			"url": "https://api.trello.com/1/cards/66ccce2f1922f69647d96c07?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 626,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"card deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"card deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				626
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"card deleted successfully": true
+				}
+			]
+		},
+		{
+			"id": "c16fb97e-1b73-48d1-862e-6a5c801885e5",
+			"name": "Delete board",
+			"url": "https://api.trello.com/1/boards/66ccce2ed9d60f4d4328a3aa?key=1dc881a7af2b3c389defb4a5404a0d64&token=ATTAb7c97205ba22966491003df794d458688cc81bea41e0c6f12028ba8f110eba05C7818DEC",
+			"time": 1584,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"board deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"board deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1584
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"board deleted successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5470,
+	"collection": {
+		"requests": [
+			{
+				"id": "ed801a74-b191-447b-90bc-605b74958518",
+				"method": "POST"
+			},
+			{
+				"id": "0fc4bec6-c747-4a61-8c3d-d7ce1f7c5a51",
+				"method": "POST"
+			},
+			{
+				"id": "bf82b6bd-eea9-4447-9dff-052aa8c7955d",
+				"method": "POST"
+			},
+			{
+				"id": "576c9cfe-d982-4d2c-a0b0-1601a72087a5",
+				"method": "PUT"
+			},
+			{
+				"id": "d1e53212-1531-46a7-a10c-fdfd0c6af734",
+				"method": "PUT"
+			},
+			{
+				"id": "f74db69f-e438-4fd4-9d39-9da69da98a80",
+				"method": "PUT"
+			},
+			{
+				"id": "04d79e1c-0336-467e-ae82-3cfa0926d90b",
+				"method": "GET"
+			},
+			{
+				"id": "78b9948b-2812-4f29-8109-9d5d39e03a71",
+				"method": "GET"
+			},
+			{
+				"id": "403fdec7-ef20-434a-ab2e-fc728eb1d29e",
+				"method": "GET"
+			},
+			{
+				"id": "9c4ad9fe-a9a2-4c74-b43b-82e1215b919c",
+				"method": "DELETE"
+			},
+			{
+				"id": "c16fb97e-1b73-48d1-862e-6a5c801885e5",
+				"method": "DELETE"
+			}
+		]
+	}
+}
